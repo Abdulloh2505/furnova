@@ -29,5 +29,5 @@ export enum MemberAuthType{
  registerEnumType(
     MemberAuthType, 
     { 
-    name: 'MemberAuthType'
+    name: 'MemberAuthType',
 });
