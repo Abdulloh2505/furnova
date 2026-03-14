@@ -21,6 +21,18 @@ import { MemberAuthType, MemberStatus, MemberType } from '../libs/enums/member.e
      default: MemberAuthType.PHONE,
     },
 
+     memberAuthTypeEmail: {
+     type: String,
+     enum:  MemberAuthType,
+     default: MemberAuthType.EMAIL,
+    },
+
+    memberAuthTypeTelegram: {
+     type: String,
+     enum:  MemberAuthType,
+     default: MemberAuthType.TELEGRAM,
+    },
+
     memberPhone: {
         type: String,
         index: {
